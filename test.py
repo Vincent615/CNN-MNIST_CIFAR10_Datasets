@@ -4,7 +4,7 @@ from collections import OrderedDict
 import torch
 from torchvision import transforms, datasets
 
-#from CNN import CNN
+from CNN import CNN
 
 torch.multiprocessing.set_sharing_strategy('file_system')
 
