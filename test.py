@@ -103,6 +103,5 @@ def main():
         print(f"\t{key}: {result[key]}")
 
 
-
 if __name__ == "__main__":
     main()
