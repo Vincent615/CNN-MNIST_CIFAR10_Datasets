@@ -66,7 +66,6 @@ def train(
         train_dataset,
         valid_dataset,
         device
-
 ):
     # Hyperparameters for training
     epochs = 5  # 3 epochs for MNIST is better
