@@ -35,7 +35,7 @@ class Net(nn.Module):
         return self.fc3(x)
 
 
-#Function to get train and validation datasets. Please do not make any changes to this function.
+#Function to get train and validation datasets.
 def load_dataset(
         dataset_name: str,
 ):
