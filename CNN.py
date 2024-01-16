@@ -100,7 +100,6 @@ def train(
             if i % interval == 0:
                 print(f'\t[{i * len(data)}/{len(train_dataset)}]\tLoss: {loss.item():.4f}')
 
-        # Following code for validation is mostly adapted from CIFAR10_Multiple_Linear_Regression.ipynb
         model.eval()
         correct = 0
 
