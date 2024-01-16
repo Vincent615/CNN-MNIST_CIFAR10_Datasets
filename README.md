@@ -7,4 +7,7 @@ test.py is the code to test the trained model.
 - Pytorch
 - Cuda
 
+## To-Do
+- [ ] Restructure the code
+
 ## Acknowledgment
