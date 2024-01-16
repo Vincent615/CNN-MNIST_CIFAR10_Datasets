@@ -13,12 +13,12 @@ class Net(nn.Module):
 
         self.in_channels = in_channels
 
-        kernal_size = 3  # Kernel size for MNIST
+        kernel_size = 3  # Kernel size for MNIST
         if in_channels > 1:
-            kernal_size = 5  # Kernel size for CIFAR10
+            kernel_size = 5  # Kernel size for CIFAR10
 
-        self.conv1 = nn.Conv2d(in_channels, 32, kernal_size)
-        self.conv2 = nn.Conv2d(32, 64, kernal_size)
+        self.conv1 = nn.Conv2d(in_channels, 32, kernel_size)
+        self.conv2 = nn.Conv2d(32, 64, kernel_size)
         self.fc1 = nn.Linear(64*5*5, 384)
         self.fc2 = nn.Linear(384, 128)
         self.fc3 = nn.Linear(128, 10)
