@@ -8,5 +8,3 @@ test.py is the code to test the trained model.
 - Cuda
 
 ## Acknowledgment
-
-CMPUT 328, University of Alberta
