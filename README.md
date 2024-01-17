@@ -5,9 +5,10 @@ test.py is the code to test the trained model.
 ## Prerequisites
 
 - Pytorch
+- Torchvision
 - Cuda
 
 ## To-Do
-- [ ] Restructure the code
+- [x] Restructure the code
 
 ## Acknowledgment
