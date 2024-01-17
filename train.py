@@ -106,7 +106,7 @@ def test(model, test_loader, device):
     model.eval()
     num_correct = 0
     total = 0
-    for batch_idx, (data, targets) in enumerate(test_loader):
+    for i, (data, targets) in enumerate(test_loader):
         data = data.to(device)
         targets = targets.to(device)
 
