@@ -12,3 +12,4 @@ test.py is the code to test the trained model.
 - [x] Restructure the code
 
 ## Acknowledgment
+LeNet
