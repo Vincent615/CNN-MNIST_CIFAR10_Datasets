@@ -73,7 +73,7 @@ def train(model, train_loader, valid_loader, device):
             target = target.to(device)
             optimizer.zero_grad()
             output = model(data)
-            loss = F.cross_entropy(output, target) # Calculate loss
+            loss = F.cross_entropy(output, target)  # Calculate cross-entropy loss
 
             # Backward pass and optimization
             loss.backward()
