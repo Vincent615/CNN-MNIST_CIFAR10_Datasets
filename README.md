@@ -11,6 +11,7 @@ train.py is the code to train and test the model.
 
 ## To-Do
 - [x] Restructure the code
+- [ ] Write comments
 
 ## Acknowledgment
 
