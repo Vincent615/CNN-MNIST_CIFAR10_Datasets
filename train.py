@@ -19,7 +19,7 @@ class Params():
         #self.device = 'cpu'
 
         self.batch_size = 50
-        self.epochs = 5  # 3 epochs for MNIST, 5 epochs for CIFAR10
+        self.epochs = 5
         self.lr = 0.001
         self.interval = 100  # display interval
 
