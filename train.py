@@ -37,7 +37,7 @@ def load_dataset(dataset_name=params.dataset, batch_size=params.batch_size):
                             transforms.ToTensor(),
                             transforms.Normalize((0.1307,), (0.3081,))]))
 
-        train_dataset, valid_dataset = random_split(full_dataset, [48000, 12000])
+        train_dataset, valid_dataset = random_split(full_dataset, [55000, 5000])
 
     elif dataset_name == "CIFAR10":
         full_dataset = datasets.CIFAR10('./data', train=True, download=True,
@@ -49,7 +49,7 @@ def load_dataset(dataset_name=params.dataset, batch_size=params.batch_size):
                             transforms.ToTensor(),
                             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))]))
 
-        train_dataset, valid_dataset = random_split(full_dataset, [38000, 12000])
+        train_dataset, valid_dataset = random_split(full_dataset, [45000, 5000])
 
     else:
         raise Exception("Unsupported dataset.")
