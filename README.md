@@ -1,5 +1,5 @@
 # CNN_MNIST-CIFAR10
-**This is generally a LeNet** with accuracy of >99% on MNIST dataset and >70% on CIFAR10 dataset.
+**This is generally a LeNet** with accuracy of ~99% on MNIST dataset and >70% on CIFAR10 dataset.
 
 train.py is the code to train and test the model. 
 
